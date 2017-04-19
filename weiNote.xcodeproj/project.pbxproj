@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85ED77B4B30F32F317130746 /* libPods-weiNoteTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 176DA0B1601ECECF9F473996 /* libPods-weiNoteTests.a */; };
+		A7EF996E1EA70BDD00112742 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EF996D1EA70BDD00112742 /* main.m */; };
+		A7EF99711EA70BDD00112742 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EF99701EA70BDD00112742 /* AppDelegate.m */; };
+		A7EF99741EA70BDD00112742 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EF99731EA70BDD00112742 /* ViewController.m */; };
+		A7EF99771EA70BDD00112742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EF99751EA70BDD00112742 /* Main.storyboard */; };
+		A7EF99791EA70BDD00112742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7EF99781EA70BDD00112742 /* Assets.xcassets */; };
+		A7EF997C1EA70BDD00112742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EF997A1EA70BDD00112742 /* LaunchScreen.storyboard */; };
+		A7EF99871EA70BDD00112742 /* weiNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EF99861EA70BDD00112742 /* weiNoteTests.m */; };
+		A7EF99921EA70BDD00112742 /* weiNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EF99911EA70BDD00112742 /* weiNoteUITests.m */; };
+		AD253F55092997E55693AFCF /* libPods-weiNote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A4AD9A0E4EFF499BF88F33 /* libPods-weiNote.a */; };
+		B07C39CE31EFB4A616CADD0C /* libPods-weiNoteUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 449189402B5E2C4CBDD714E7 /* libPods-weiNoteUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7EF99831EA70BDD00112742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7EF99611EA70BDD00112742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7EF99681EA70BDD00112742;
+			remoteInfo = weiNote;
+		};
+		A7EF998E1EA70BDD00112742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7EF99611EA70BDD00112742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7EF99681EA70BDD00112742;
+			remoteInfo = weiNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		176DA0B1601ECECF9F473996 /* libPods-weiNoteTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weiNoteTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B43707D132A832021CDDE04 /* Pods-weiNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weiNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weiNote/Pods-weiNote.debug.xcconfig"; sourceTree = "<group>"; };
+		449189402B5E2C4CBDD714E7 /* libPods-weiNoteUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weiNoteUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BEC9244BB3ADF597650046 /* Pods-weiNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weiNoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weiNoteTests/Pods-weiNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		63F36A862586FEA675F6DDDF /* Pods-weiNoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weiNoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-weiNoteTests/Pods-weiNoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		95A4AD9A0E4EFF499BF88F33 /* libPods-weiNote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weiNote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EF99691EA70BDD00112742 /* weiNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EF996D1EA70BDD00112742 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7EF996F1EA70BDD00112742 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7EF99701EA70BDD00112742 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7EF99721EA70BDD00112742 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7EF99731EA70BDD00112742 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7EF99761EA70BDD00112742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7EF99781EA70BDD00112742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7EF997B1EA70BDD00112742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7EF997D1EA70BDD00112742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7EF99821EA70BDD00112742 /* weiNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EF99861EA70BDD00112742 /* weiNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiNoteTests.m; sourceTree = "<group>"; };
+		A7EF99881EA70BDD00112742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7EF998D1EA70BDD00112742 /* weiNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EF99911EA70BDD00112742 /* weiNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiNoteUITests.m; sourceTree = "<group>"; };
+		A7EF99931EA70BDD00112742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD948B9AD8C03D65018544C0 /* Pods-weiNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weiNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-weiNote/Pods-weiNote.release.xcconfig"; sourceTree = "<group>"; };
+		B06C80BEE08E8BDA88368212 /* Pods-weiNoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weiNoteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-weiNoteUITests/Pods-weiNoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4FF46EA403720BC486EE293 /* Pods-weiNoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weiNoteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weiNoteUITests/Pods-weiNoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7EF99661EA70BDD00112742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD253F55092997E55693AFCF /* libPods-weiNote.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EF997F1EA70BDD00112742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85ED77B4B30F32F317130746 /* libPods-weiNoteTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EF998A1EA70BDD00112742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07C39CE31EFB4A616CADD0C /* libPods-weiNoteUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C3F34D0DC8A125565DE23A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95A4AD9A0E4EFF499BF88F33 /* libPods-weiNote.a */,
+				176DA0B1601ECECF9F473996 /* libPods-weiNoteTests.a */,
+				449189402B5E2C4CBDD714E7 /* libPods-weiNoteUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7EF99601EA70BDD00112742 = {
+			isa = PBXGroup;
+			children = (
+				A7EF996B1EA70BDD00112742 /* weiNote */,
+				A7EF99851EA70BDD00112742 /* weiNoteTests */,
+				A7EF99901EA70BDD00112742 /* weiNoteUITests */,
+				A7EF996A1EA70BDD00112742 /* Products */,
+				B5FEAAD6AB3AB62E0F7FDDC7 /* Pods */,
+				0C3F34D0DC8A125565DE23A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7EF996A1EA70BDD00112742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF99691EA70BDD00112742 /* weiNote.app */,
+				A7EF99821EA70BDD00112742 /* weiNoteTests.xctest */,
+				A7EF998D1EA70BDD00112742 /* weiNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7EF996B1EA70BDD00112742 /* weiNote */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF996F1EA70BDD00112742 /* AppDelegate.h */,
+				A7EF99701EA70BDD00112742 /* AppDelegate.m */,
+				A7EF99721EA70BDD00112742 /* ViewController.h */,
+				A7EF99731EA70BDD00112742 /* ViewController.m */,
+				A7EF99751EA70BDD00112742 /* Main.storyboard */,
+				A7EF99781EA70BDD00112742 /* Assets.xcassets */,
+				A7EF997A1EA70BDD00112742 /* LaunchScreen.storyboard */,
+				A7EF997D1EA70BDD00112742 /* Info.plist */,
+				A7EF996C1EA70BDD00112742 /* Supporting Files */,
+			);
+			path = weiNote;
+			sourceTree = "<group>";
+		};
+		A7EF996C1EA70BDD00112742 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF996D1EA70BDD00112742 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7EF99851EA70BDD00112742 /* weiNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF99861EA70BDD00112742 /* weiNoteTests.m */,
+				A7EF99881EA70BDD00112742 /* Info.plist */,
+			);
+			path = weiNoteTests;
+			sourceTree = "<group>";
+		};
+		A7EF99901EA70BDD00112742 /* weiNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF99911EA70BDD00112742 /* weiNoteUITests.m */,
+				A7EF99931EA70BDD00112742 /* Info.plist */,
+			);
+			path = weiNoteUITests;
+			sourceTree = "<group>";
+		};
+		B5FEAAD6AB3AB62E0F7FDDC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B43707D132A832021CDDE04 /* Pods-weiNote.debug.xcconfig */,
+				AD948B9AD8C03D65018544C0 /* Pods-weiNote.release.xcconfig */,
+				52BEC9244BB3ADF597650046 /* Pods-weiNoteTests.debug.xcconfig */,
+				63F36A862586FEA675F6DDDF /* Pods-weiNoteTests.release.xcconfig */,
+				F4FF46EA403720BC486EE293 /* Pods-weiNoteUITests.debug.xcconfig */,
+				B06C80BEE08E8BDA88368212 /* Pods-weiNoteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7EF99681EA70BDD00112742 /* weiNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EF99961EA70BDD00112742 /* Build configuration list for PBXNativeTarget "weiNote" */;
+			buildPhases = (
+				66FB4E8F49043C389FB780A4 /* [CP] Check Pods Manifest.lock */,
+				A7EF99651EA70BDD00112742 /* Sources */,
+				A7EF99661EA70BDD00112742 /* Frameworks */,
+				A7EF99671EA70BDD00112742 /* Resources */,
+				D1972209EEC2C7E396546C3B /* [CP] Embed Pods Frameworks */,
+				257FA562EF01684E88D6193E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weiNote;
+			productName = weiNote;
+			productReference = A7EF99691EA70BDD00112742 /* weiNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7EF99811EA70BDD00112742 /* weiNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EF99991EA70BDD00112742 /* Build configuration list for PBXNativeTarget "weiNoteTests" */;
+			buildPhases = (
+				EEABCDD5FD9A2352E7D98F6B /* [CP] Check Pods Manifest.lock */,
+				A7EF997E1EA70BDD00112742 /* Sources */,
+				A7EF997F1EA70BDD00112742 /* Frameworks */,
+				A7EF99801EA70BDD00112742 /* Resources */,
+				1CB1ACC8386FB37F2536B523 /* [CP] Embed Pods Frameworks */,
+				A8AB5976F1FC8576156041D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7EF99841EA70BDD00112742 /* PBXTargetDependency */,
+			);
+			name = weiNoteTests;
+			productName = weiNoteTests;
+			productReference = A7EF99821EA70BDD00112742 /* weiNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7EF998C1EA70BDD00112742 /* weiNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EF999C1EA70BDD00112742 /* Build configuration list for PBXNativeTarget "weiNoteUITests" */;
+			buildPhases = (
+				4BE747453F08EC4F035D70C8 /* [CP] Check Pods Manifest.lock */,
+				A7EF99891EA70BDD00112742 /* Sources */,
+				A7EF998A1EA70BDD00112742 /* Frameworks */,
+				A7EF998B1EA70BDD00112742 /* Resources */,
+				80BD90936684A60506FAF115 /* [CP] Embed Pods Frameworks */,
+				663F04E9F4E0B8A59C4CDCD6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7EF998F1EA70BDD00112742 /* PBXTargetDependency */,
+			);
+			name = weiNoteUITests;
+			productName = weiNoteUITests;
+			productReference = A7EF998D1EA70BDD00112742 /* weiNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7EF99611EA70BDD00112742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = roger;
+				TargetAttributes = {
+					A7EF99681EA70BDD00112742 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = AYB7599EHE;
+						ProvisioningStyle = Manual;
+					};
+					A7EF99811EA70BDD00112742 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7EF99681EA70BDD00112742;
+					};
+					A7EF998C1EA70BDD00112742 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7EF99681EA70BDD00112742;
+					};
+				};
+			};
+			buildConfigurationList = A7EF99641EA70BDD00112742 /* Build configuration list for PBXProject "weiNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7EF99601EA70BDD00112742;
+			productRefGroup = A7EF996A1EA70BDD00112742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7EF99681EA70BDD00112742 /* weiNote */,
+				A7EF99811EA70BDD00112742 /* weiNoteTests */,
+				A7EF998C1EA70BDD00112742 /* weiNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7EF99671EA70BDD00112742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EF997C1EA70BDD00112742 /* LaunchScreen.storyboard in Resources */,
+				A7EF99791EA70BDD00112742 /* Assets.xcassets in Resources */,
+				A7EF99771EA70BDD00112742 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EF99801EA70BDD00112742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EF998B1EA70BDD00112742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CB1ACC8386FB37F2536B523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weiNoteTests/Pods-weiNoteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		257FA562EF01684E88D6193E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weiNote/Pods-weiNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BE747453F08EC4F035D70C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		663F04E9F4E0B8A59C4CDCD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weiNoteUITests/Pods-weiNoteUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66FB4E8F49043C389FB780A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80BD90936684A60506FAF115 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weiNoteUITests/Pods-weiNoteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8AB5976F1FC8576156041D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weiNoteTests/Pods-weiNoteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1972209EEC2C7E396546C3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weiNote/Pods-weiNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEABCDD5FD9A2352E7D98F6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7EF99651EA70BDD00112742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EF99741EA70BDD00112742 /* ViewController.m in Sources */,
+				A7EF99711EA70BDD00112742 /* AppDelegate.m in Sources */,
+				A7EF996E1EA70BDD00112742 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EF997E1EA70BDD00112742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EF99871EA70BDD00112742 /* weiNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EF99891EA70BDD00112742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EF99921EA70BDD00112742 /* weiNoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7EF99841EA70BDD00112742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7EF99681EA70BDD00112742 /* weiNote */;
+			targetProxy = A7EF99831EA70BDD00112742 /* PBXContainerItemProxy */;
+		};
+		A7EF998F1EA70BDD00112742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7EF99681EA70BDD00112742 /* weiNote */;
+			targetProxy = A7EF998E1EA70BDD00112742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7EF99751EA70BDD00112742 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7EF99761EA70BDD00112742 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7EF997A1EA70BDD00112742 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7EF997B1EA70BDD00112742 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7EF99941EA70BDD00112742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7EF99951EA70BDD00112742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7EF99971EA70BDD00112742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B43707D132A832021CDDE04 /* Pods-weiNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AYB7599EHE;
+				INFOPLIST_FILE = weiNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysoft.weiNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "85afce57-9a40-48a1-a606-0f99e3f9906d";
+				PROVISIONING_PROFILE_SPECIFIER = JiCe_Development;
+			};
+			name = Debug;
+		};
+		A7EF99981EA70BDD00112742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD948B9AD8C03D65018544C0 /* Pods-weiNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AYB7599EHE;
+				INFOPLIST_FILE = weiNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysoft.weiNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "85afce57-9a40-48a1-a606-0f99e3f9906d";
+				PROVISIONING_PROFILE_SPECIFIER = JiCe_Development;
+			};
+			name = Release;
+		};
+		A7EF999A1EA70BDD00112742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BEC9244BB3ADF597650046 /* Pods-weiNoteTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weiNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysoft.weiNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weiNote.app/weiNote";
+			};
+			name = Debug;
+		};
+		A7EF999B1EA70BDD00112742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F36A862586FEA675F6DDDF /* Pods-weiNoteTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weiNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysoft.weiNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weiNote.app/weiNote";
+			};
+			name = Release;
+		};
+		A7EF999D1EA70BDD00112742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4FF46EA403720BC486EE293 /* Pods-weiNoteUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = weiNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysoft.weiNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = weiNote;
+			};
+			name = Debug;
+		};
+		A7EF999E1EA70BDD00112742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06C80BEE08E8BDA88368212 /* Pods-weiNoteUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = weiNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysoft.weiNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = weiNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7EF99641EA70BDD00112742 /* Build configuration list for PBXProject "weiNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EF99941EA70BDD00112742 /* Debug */,
+				A7EF99951EA70BDD00112742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EF99961EA70BDD00112742 /* Build configuration list for PBXNativeTarget "weiNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EF99971EA70BDD00112742 /* Debug */,
+				A7EF99981EA70BDD00112742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7EF99991EA70BDD00112742 /* Build configuration list for PBXNativeTarget "weiNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EF999A1EA70BDD00112742 /* Debug */,
+				A7EF999B1EA70BDD00112742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7EF999C1EA70BDD00112742 /* Build configuration list for PBXNativeTarget "weiNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EF999D1EA70BDD00112742 /* Debug */,
+				A7EF999E1EA70BDD00112742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7EF99611EA70BDD00112742 /* Project object */;
+}
